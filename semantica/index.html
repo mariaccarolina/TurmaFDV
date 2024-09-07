@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Semantica</title>
+  </head>
+  <body>
+    <!-- Semantica é uso de tags com significado. -->
+    <!-- cabeçalho inicio do site, logo, links de navegação -->
+    <header>
+      <!-- img tag para imagem -->
+      <img
+        src="https://img.odcdn.com.br/wp-content/uploads/2024/07/olimpiadas_2024_logo-scaled.jpg"
+        alt="logo olimpiadas 2024"
+        width="200"
+      />
+      <!-- nav- container para agrupar uma lista de links de navegação -->
+      <nav>
+        <!-- tag ul lista não ordenada -->
+        <ul>
+          <!-- tag li para listar cada link -->
+          <!-- dentro da tag li, podemos inserir a tag <a> tag de link-->
+          <li><a href="" target="_blank">Saiba mais</a></li>
+          <li>
+            <a
+              href="https://www.youtube.com/watch?v=YtkCv-9-c6Y"
+              target="_blank"
+              >Medalhas Brasil</a
+            >
+          </li>
+          <li><a href="">Assista ao vivo</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- a tag main é um container, onde iremos adicionar o conteudo principal do site -->
+    <main>
+      <h1>Jogos Olímpicos de Paris 2024</h1>
+      <!-- section é usada para dividir nosso site em seções -->
+      <section>
+        <!--  form é usada para criar um formlulario na web-->
+          <h2>Formulário de inscrição</h2>
+          <!-- a tag fieldset é usada para agrupar um formulario, cria uma caixa ao redor do form -->
+          <fieldset>
+            <!-- a tag legend é usada apenas dentro da tag fieldset, adc uma legenda a caixa -->
+            <legend>Se Inscreva:</legend>
+            <!-- a tag form é um container que vai agrupar as info do formulario, action serve para enviar as info para um local -->
+            <form action="">
+              <!-- a tag label é a tag de associamento de texto, etiqueta, serve para mostrar qual informação a pessoa deve inserir -->
+               <!-- o atributo for conecta ao input -->
+              <label for="nome">Nome:</label>
+              <!-- a tag input é um campo de entrada -->
+               <!-- type é tipo de input -->
+              <input type="text" id="nome">
+              <label for="email">E-mail:</label>
+              <input type="email" id="email">
+              <!-- input type submit vai criar um botao para submeter, enviar -->
+              <input type="submit">
+            </form>
+          </fieldset>
+      </section>
+    </main>
+    <!-- é o rodapé da página, parte final -->
+    <footer></footer>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+body{
+    background-color: darkgoldenrod;
+}
+
+label input{
+    display: inline-block;
+}
