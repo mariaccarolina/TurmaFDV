@@ -5,6 +5,7 @@
 
 body {
   background-color: burlywood;
+  font-family: "Montserrat", sans-serif;
 }
 
 img {
@@ -15,4 +16,13 @@ img {
 
 ul {
   margin: 20px;
+}
+
+h1 {
+  font-family: "Montagu Slab", serif;
+  color: orangered;
+}
+
+main {
+  padding-left: 20px;
 }/*# sourceMappingURL=style.css.map */

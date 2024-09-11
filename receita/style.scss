@@ -6,6 +6,7 @@
 
 body{
     background-color: burlywood;
+    font-family: "Montserrat", sans-serif;
 }
 
 img{
@@ -16,4 +17,21 @@ img{
 
 ul{
     margin: 20px;
+}
+
+h1{
+    font-family: "Montagu Slab", serif;
+    color: orangered;
+}
+
+main{
+  
+    // 1 valor será aplicado para os 4 lados
+    //padding: 20px ;
+    // 2 valores serao aplicados para
+    // primeiro valor top, bottom, segundo para os lados
+    //pra os 4 lados:
+    //padding: 20px 10px 80px 0;
+    //top, lef, bottom, rigth
+    padding-left: 20px;
 }
