@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #FD9317;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header img {
+  width: 12%;
+}
+header ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 60vw;
+}/*# sourceMappingURL=style.css.map */
