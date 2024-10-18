@@ -22,6 +22,22 @@ header{
         justify-content: space-around;
         //border: solid; // adiciona uma borda
         width: 60vw;
+        
     }
 }
 
+figure{
+    img{
+        width: 20vw;
+        margin: 20px;
+    }
+}
+
+main{
+    background-color: #75442C;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}

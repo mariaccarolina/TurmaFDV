@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2CB3F3;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.capuz {
+  background-color: #FFFFFF;
+  width: 50vw;
+  height: 60vh;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rosto {
+  width: 40vw;
+  height: 40vh;
+  background-color: #FFE1C9;
+  border-radius: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.container div {
+  width: 5vw;
+  height: 5vh;
+  background-color: black;
+  border-radius: 100%;
+}
+
+.olho1 {
+  position: relative;
+  top: 100px;
+  left: 70px;
+}
+
+.olho2 {
+  position: relative;
+  top: 100px;
+  right: 70px;
+}/*# sourceMappingURL=style.css.map */

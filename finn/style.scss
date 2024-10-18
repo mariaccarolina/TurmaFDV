@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2CB3F3;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+//flex-direction: column; essa propriedade muda o eixo, entao o justify será usado para a altura e o align será usado para a largura
+    justify-content: center;
+    align-items: center;
+}
+
+.capuz{
+    background-color: #FFFFFF;
+    width: 50vw;
+    height: 60vh;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;//alinhando na largura da caixa
+    align-items: center;
+    //alinhando no altura da caixa
+}
+
+.rosto{
+    width: 40vw;
+    height: 40vh;
+    background-color: #FFE1C9;
+    border-radius: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    div{
+       width: 5vw;
+       height: 5vh; 
+       background-color: black;
+       border-radius: 100%;
+    }
+}
+//position
+//propriedade que controla a posição dos elementos
+
+.olho1{
+    position: relative;
+    top: 100px;
+    left: 70px;
+}
+
+.olho2 {
+    position: relative;
+    top: 100px;
+    right: 70px;
+}

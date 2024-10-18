@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+}
+
+p {
+  background-color: rgb(243, 123, 199);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  border: solid palevioletred;
+}
+
+.item {
+  background-color: rgb(129, 243, 247);
+  border: solid;
+}
+
+section {
+  margin: 10px 0;
+}
+
+.container1 {
+  border: solid palevioletred;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container2 {
+  border: solid palevioletred;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container3 {
+  border: solid palevioletred;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container4 {
+  border: solid palevioletred;
+  display: flex;
+  justify-content: space-evenly;
+}/*# sourceMappingURL=style.css.map */

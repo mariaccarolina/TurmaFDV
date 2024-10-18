@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20px;
+}
+
+p{
+    background-color: rgb(243, 123, 199);
+}
+// propriedade: display: flex;
+// coloca todos os filhos um ao lado do outro
+// justify-content - alinhar no eixo x largura
+
+.container {
+    display: flex;
+    // ativa o flexbox
+    justify-content: center;
+    // alinha ao centro -largura
+    border: solid palevioletred;
+}
+
+.item {
+    background-color: rgb(129, 243, 247);
+    border:  solid;
+}
+
+section{
+    margin: 10px 0;
+}
+
+.container1{
+    border: solid palevioletred;
+    display: flex;
+    justify-content: flex-end;//alinhar ao final
+}
+
+.container2{
+    border: solid palevioletred;
+    display: flex;
+    justify-content: space-around;
+    // space-araund -espaço ao redor
+}
+
+.container3{
+    border: solid palevioletred;
+    display: flex;
+    justify-content: space-between;
+    //space-between - espaço entre a tag
+}
+
+.container4{
+    border: solid palevioletred;
+    display: flex;
+    justify-content: space-evenly;
+    // espaço igual ao redor dos tags
+}
